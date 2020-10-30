@@ -33,10 +33,8 @@ public class Program
             {
                 Console.WriteLine("Inserisci la misura del lato 1: ");
                 l1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Inserisci la misura del lato 2: ");
-                l2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Il risultato è: ");
-                Console.WriteLine((l1 + l2) * 2);
+                Console.WriteLine(l1 * 4);
                 Console.WriteLine("Premi un tasto qualsiasi per uscire...");
                 Console.ReadKey();
             }
